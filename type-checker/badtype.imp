@@ -1,0 +1,11 @@
+// Here we have the factorial program again, but notice that
+// this time ret's type must be declared before it can be used.
+// (Variable 'arg0' need not be declared; it always has type int.)
+int ret;
+bool bad;
+bad := 3*false;
+ret := 1;
+while !(arg0 <= 1) do (
+  ret := bad * arg0;
+  arg0 := arg0 - 1
+)
